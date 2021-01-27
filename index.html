@@ -8,12 +8,12 @@
     <style>
         header {
             background-color: black;
-            padding:20px
+            padding:10px;
         }
 
         body {
-            
-            font-family:Helvetica
+            font-family:Helvetica;
+            padding:10px;
         }
 
         footer{
@@ -29,22 +29,13 @@
 
         a.menu:link, a.menu:visited {
             text-decoration:none;
-            font-size:24px;
             background-color: #ff8800;
-            border:1px solid black;
-            display: block;
-            width:450px;
-            margin-bottom:7px;
-            text-align:center;
             color: white;
         }
 
         a.menu:hover, a.menu:active {
             background-color:grey;
             color: white;
-
-
-
         }
 
     </style>
@@ -55,11 +46,16 @@
 <body>
 
     <header>
-        <a href="index.html"><img src="images/logo_lrg.png" alt="wheatley.digital logo" style="height: 75px";/></a>        
+        <a href="index.html"><img src='images/logo_lrg.png' 
+            onmouseover="this.src='images/logo_lrgw.png';" onmouseout="this.src='images/logo_lrg.png';" 
+            alt="wheatley.digital logo" style="height: 75px; padding: 10px"/></a>
+        </br>  
+
     </header>
 
     <h1>Mission</h1>
-    <img src="images/mission.png" alt="Mission" style="width: 60%;"/>
+    
+    <img src="images/mission.png" alt="Mission" style="height: 200px"/>
 
 
     
@@ -73,15 +69,17 @@
         </div>
     </ul>
 
-    <p>We're busy developing content to make this site as useful as possible, in the mean time please
-        <a href="contact.html" title ="Contact";>get in touch here</a> 
-        if you'd like to discuss any of the content further or have any other ideas of what you would like to see covered.</p>
+    <p>We're busy adding and refreshing content regularly to make this site as useful as possible, <br>
+    including establishing links with a range of local service providers:
+            <ul>
+                <li><a href="https://www.yeovilinnovationcentre.co.uk/"title ="yic"; target="_blank">Yeovil Innovation Centre</a></li>
+            </ul>
+    </body>
+
+    <p>However in the mean time if you've got some ideas or would like to discuss any of the content further please <a href="contact.html" title ="Contact";>get in touch here</a> 
+    </p>
     
-    <p>We will also be looking to set up links with a range of local service providers:
-        <ul>
-            <li><a href="https://www.yeovilinnovationcentre.co.uk/"title ="yic"; target="_blank">Yeovil Innovation Centre</a></li>
-        </ul>
-</body>
+ 
 
 
 
