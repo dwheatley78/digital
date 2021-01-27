@@ -8,17 +8,49 @@
     <style>
         header {
             background-color: black;
+            padding:20px
         }
 
         body {
-            padding:25px;
+            
             font-family:Helvetica
+        }
+        h1 {
+            background-color: #ff8800;
+            border:1px solid black;
+            text-align:center;
+            width:500px;
+            color: white;
         }
 
         footer{
             color:white; 
-            background-color: #ff8800;
+            background-color: black;
+
             padding:2px;
+        }
+
+        .no_bullet{
+            list-style: none;
+        }
+
+        a.menu:link, a.menu:visited {
+            text-decoration:none;
+            background-color: #ff8800;
+            border:1px solid black;
+            display: block;
+            width:450px;
+            margin-bottom:7px;
+            text-align:center;
+            color: white;
+        }
+
+        a.menu:hover, a.menu:active {
+            background-color:grey;
+            color: white;
+
+
+
         }
 
     </style>
@@ -29,26 +61,32 @@
 <body>
 
     <header>
-        <a href="index.html"><img src="images/logo_lrg.png" alt="wheatley.digital logo" style="height: 75px; padding: 10px"/></a>      
-        </br>  
-
+        <a href="index.html"><img src="images/logo_lrg.png" alt="wheatley.digital logo" style="height: 75px";/></a>        
     </header>
 
     <h1>Mission</h1>
     <img src="images/mission.png" alt="Mission" style="width: 60%;"/>
 
 
-    <p>We're busy developing content to make this site as useful as possible, in the mean time please <a href="contact.html" title ="Contact";>get in touch here</a></p>
+    
 
-    <p>Key areas we will be expanding on include:</p>
+    <p>We will be focusing our support around 3 main areas</p>
     <ul>
-        <li><a href="forum.html" title ="Chat forum";>Online forum and idea sharing</a></li>
-        <li><a href="discussion.html" title ="Discussion groups";>Topical round table discussion groups</li></a>
-        <li><a href="code_club.html" title ="Kids coding";>Kids coding club</a></li>
-        <li>Collaborations with local centres:<ul>
-            <li><a href="https://www.yeovilinnovationcentre.co.uk/"title ="yic"; target="_blank">Yeovil Innovation Centre</a></li>
-        </li></ul>
+        <div>
+        <li class="no_bullet"><a class= "menu" href="forum.html" title ="Chat forum";>Online forum and idea sharing</a></li>
+        <li class="no_bullet"><a class= "menu" href="discussion.html" title ="Discussion groups";>Topical round table discussion groups</li></a>
+        <li class="no_bullet"><a class= "menu" href="code_club.html" title ="Kids coding";>Kids coding club</a></li>
+        </div>
     </ul>
+
+    <p>We're busy developing content to make this site as useful as possible, in the mean time please
+        <a href="contact.html" title ="Contact";>get in touch here</a> 
+        if you'd like to discuss any of the content further or have any other ideas of what you would like to see covered.</p>
+    
+    <p>We will also be looking to set up links with a range of local service providers:
+        <ul>
+            <li><a href="https://www.yeovilinnovationcentre.co.uk/"title ="yic"; target="_blank">Yeovil Innovation Centre</a></li>
+        </ul>
 </body>
 
 
