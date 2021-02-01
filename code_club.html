@@ -1,47 +1,110 @@
-<!DOCTYPE html>
-<html>
 <head>
-    <link rel='shortcut icon' type='image/ico' href='images/favicon.ico' />
-    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WHEATLEY.digital</title>
+        
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href ="css/style.css">
+    <link rel='shortcut icon' type='image/ico' href='images/favicon.ico' />
 
-    <link rel="stylesheet" href ="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 
-    <style></style>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 
 </head>
 
 <body>
-    <body>
-        <header>
-            <a href="index.html"><img src='images/logo_lrg.png' 
-                onmouseover="this.src='images/logo_lrgw.png';" onmouseout="this.src='images/logo_lrg.png';" 
-                alt="wheatley.digital logo" style="height: 75px; padding: 10px"/></a>
-            </br>  
-    
-        </header>
-        <br>
-    
-    <h1>Code club</h1>
 
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <a href="index.html" class="pull-left visible-xs visible-sm visible-md visible-lg">
+                <div id="logo-img" alt="logo image"></div>
+              </a>
+              <div class="navbar-brand">
+                <a href="index.html"><h1>WHEATLEY</h1></a>
+                <a href="index.html"><p>.digital</p></a>
+              </div>
+
+
+    
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+
+
+
+
+
+    
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+                 <li>
+                   <a href="forum.html">
+                     <span class="glyphicon glyphicon-link"></span><br class="hidden-xs"> Forum</a>
+                 </li>
+                 <li>
+                   <a href="discussion.html">
+                     <span class="glyphicon glyphicon-calendar"></span><br class="hidden-xs"> Events</a>
+                 </li>
+                 <li>
+                   <a href="code_club.html">
+                     <span class="glyphicon glyphicon-education"></span><br class="hidden-xs"> Kids coding</a>
+                 </li>
+ 
+                 <li id="email" class="hidden-xs hidden-sm hidden-md">
+                     <a href="mailto:david@wheatley.digital">
+                       <span>david@wheatley.digital</span></a><div>*To register your interest or contribute ideas </br>please get in touch</div>
+                   </li>
+    
+               </ul><!-- #nav-list -->
+             </div><!-- .collapse .navbar-collapse -->
+           </div><!-- .container -->
+         </nav><!-- #header-nav -->
+       </header>
+
+
+   
+
+
+
+    <div id="main_content" class="container">
+
+
+
+
+    <h2>Kids Code Club</h2>      
     <p>We will be looking to setup code clubs for kids in the local area as soon as the COVID situation allows</p>
     <p>In the mean time I'll share a few projects I have been working on with my family</p>
-    <h2>Our projects</h2>
+    <h3>Our projects</h3>
     
     <ul>
-        <li><a href="Henry/get_coding.html" title ="My first web page" target="_blank">Building a web page using the Get Coding book</a></li>
+        <li><a href="henry/get_coding.html" title ="My first web page" target="_blank">Building a web page using the Get Coding book</a></li>
 
         <li>We have been building a lot of games using Scrath and will add the links soon</li>
     </ul>
 
-</body>
+  </div>
 
 
-<footer>
-    <hr/>
-        <p>Somerset, UK</p>
-    <hr/>
-</footer>
-    
-
-</html>
+  <footer >
+      <div id="email2" class="container">
+          <a href="mailto:david@wheatley.digital">
+            <span font-size=100px>david@wheatley.digital</span></a>
+            <div>*To register your interest or contribute ideas </br>please get in touch</div>
+      </div>
+  </footer>
+      
+  </body>
+  </html>

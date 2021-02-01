@@ -1,0 +1,159 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: lightblue;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: steelblue;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  #logo-img {
+    background: url('../images/logo-m.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  
+  .navbar-brand h1 { /* WHEATLEY */
+    font-family: 'Oxygen', sans-serif;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .9;
+    text-align: right;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  .navbar-brand p { /* domain */
+    font-family: 'Oxygen', sans-serif;
+    color: black;
+    font-size: 1.5em;
+    margin-top: 0;
+    text-align: right;
+  }
+  
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color:black;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: lightblue;;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  #email {
+    margin-top: 5px;
+  }
+  #email a { /* email */
+    text-align: right;
+    padding-bottom: 0;
+  }
+  #email div { /* Get in touch */
+    color:lightblue;
+    text-align: right;
+    font-size: 0.8em;
+    padding-right: 15px;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid lightblue;;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+
+ 
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+
+  /* End Header */
+}
+
+/********** Extra Small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/logo_s.png') no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 2px 2px 2px 5px;
+  }
+
+  .navbar-brand h1{
+      font-size: 1.2em;
+   
+  }
+  
+  .navbar-brand p{
+  font-size: 1em;
+  padding-top: 5px;
+  }
+
+  .navbar-brand{
+  padding-top: 5px;
+  }
+
+  #collapsable-nav a span{
+    font-size: 1em;
+    margin-right: 10px;
+  }
+}
+  /* End Header */ 
+  /* END HEADER */
+
+
+
+  footer {
+    background-color: steelblue;
+    border-radius: 0;
+    border: 0;
+  }
+  #email2 span {
+    color:black;
+    float: right;
+    font-size: 1.4em;
+    padding-right: 15px;
+  }
+
+  #email2 div {
+    color:lightblue;
+    float: right;
+    font-size: .7em;
+    padding-right: 15px;
+    text-align: right;
+    margin-bottom:30px;
+    clear:both;
+  }

@@ -1,26 +1,86 @@
-<!DOCTYPE html>
-<html>
 <head>
-    <link rel='shortcut icon' type='image/ico' href='images/favicon.ico' />
-    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WHEATLEY.digital</title>
+        
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href ="css/style.css">
+    <link rel='shortcut icon' type='image/ico' href='images/favicon.ico' />
 
-    <link rel="stylesheet" href ="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 
-    <style></style>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 
 </head>
 
-
 <body>
-    <header>
-        <a href="index.html"><img src='images/logo_lrg.png' 
-            onmouseover="this.src='images/logo_lrgw.png';" onmouseout="this.src='images/logo_lrg.png';" 
-            alt="wheatley.digital logo" style="height: 75px; padding: 10px"/></a>
-        </br>  
 
-    </header>
-    <h1>Chat Forum</h1>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <a href="index.html" class="pull-left visible-xs visible-sm visible-md visible-lg">
+                <div id="logo-img" alt="logo image"></div>
+              </a>
+              <div class="navbar-brand">
+                <a href="index.html"><h1>WHEATLEY</h1></a>
+                <a href="index.html"><p>.digital</p></a>
+              </div>
+
+
+    
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+
+
+
+
+
+    
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+                 <li>
+                   <a href="forum.html">
+                     <span class="glyphicon glyphicon-link"></span><br class="hidden-xs"> Forum</a>
+                 </li>
+                 <li>
+                   <a href="discussion.html">
+                     <span class="glyphicon glyphicon-calendar"></span><br class="hidden-xs"> Events</a>
+                 </li>
+                 <li>
+                   <a href="code_club.html">
+                     <span class="glyphicon glyphicon-education"></span><br class="hidden-xs"> Kids coding</a>
+                 </li>
+ 
+                 <li id="email" class="hidden-xs hidden-sm hidden-md">
+                     <a href="mailto:david@wheatley.digital">
+                       <span>david@wheatley.digital</span></a><div>*To register your interest or contribute ideas </br>please get in touch</div>
+                   </li>
+    
+               </ul><!-- #nav-list -->
+             </div><!-- .collapse .navbar-collapse -->
+           </div><!-- .container -->
+         </nav><!-- #header-nav -->
+       </header>
+
+
+   
+
+
+
+<div id="main_content" class="container">
+    <h2>Chat Forum</h2>
     <p>We are busy building the chat forum and will let you know as soon as it is available</p>
     <br>
 
@@ -37,4 +97,16 @@
     <p>The following slide highlights the key packages that we use to develop solutions</p>
     <img src="images/core_tools.png" alt="core tools poster" style="width: 100%;"/>    
 
-    <p>If you would like to find out more please <a href="contact.html" title ="Contact";>get in touch here</a></p>
+  </div>
+
+
+  <footer >
+      <div id="email2" class="container">
+          <a href="mailto:david@wheatley.digital">
+            <span font-size=100px>david@wheatley.digital</span></a>
+            <div>*To register your interest or contribute ideas </br>please get in touch</div>
+      </div>
+  </footer>
+      
+  </body>
+  </html>

@@ -1,62 +1,116 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel='shortcut icon' type='image/ico' href='images/favicon.ico' />
-    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WHEATLEY.digital</title>
+        
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href ="css/style.css">
+    <link rel='shortcut icon' type='image/ico' href='images/favicon.ico' />
 
-    <link rel="stylesheet" href ="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 
-    <style></style>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 
 </head>
-
 
 <body>
 
     <header>
-        <a href="index.html"><img src='images/logo_lrg.png' 
-            onmouseover="this.src='images/logo_lrgw.png';" onmouseout="this.src='images/logo_lrg.png';" 
-            alt="wheatley.digital logo" style="height: 75px; padding: 10px"/></a>
-        </br>  
+        <nav id="header-nav" class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <a href="index.html" class="pull-left visible-xs visible-sm visible-md visible-lg">
+                <div id="logo-img" alt="logo image"></div>
+              </a>
+              <div class="navbar-brand">
+                <a href="index.html"><h1>WHEATLEY</h1></a>
+                <a href="index.html"><p>.digital</p></a>
+              </div>
 
-    </header>
 
-    <h1>Mission</h1>
     
-    <img src="images/mission.png" alt="Mission" style="height: 200px"/>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+
+
+
 
 
     
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+               <ul id="nav-list" class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="forum.html">
+                    <span class="glyphicon glyphicon-link"></span><br class="hidden-xs"> Forum</a>
+                </li>
+                <li>
+                  <a href="discussion.html">
+                    <span class="glyphicon glyphicon-calendar"></span><br class="hidden-xs"> Events</a>
+                </li>
+                <li>
+                  <a href="code_club.html">
+                    <span class="glyphicon glyphicon-education"></span><br class="hidden-xs"> Kids coding</a>
+                </li>
+
+                <li id="email" class="hidden-xs hidden-sm hidden-md">
+                    <a href="mailto:david@wheatley.digital">
+                      <span>david@wheatley.digital</span></a><div>*To register your interest or contribute ideas </br>please get in touch</div>
+                  </li>
+   
+              </ul><!-- #nav-list -->
+            </div><!-- .collapse .navbar-collapse -->
+          </div><!-- .container -->
+        </nav><!-- #header-nav -->
+      </header>
+
+
+   
+
+
+
+<div id="main_content" class="container">
+    <img src="images/mission.png" alt="Mission" style="width: 100%"/>
+
 
     <p>We will be focusing our support around 3 main areas</p>
-    <ul>
-        <div>
-        <li class="no_bullet"><a class= "menu" href="forum.html" title ="Chat forum";>Online forum and idea sharing</a></li>
-        <li class="no_bullet"><a class= "menu" href="discussion.html" title ="Discussion groups";>Topical round table discussion groups</li></a>
-        <li class="no_bullet"><a class= "menu" href="code_club.html" title ="Kids coding";>Kids coding club</a></li>
-        </div>
-    </ul>
+        <ul>
+            <div>
+            <li class="no_bullet"><a class= "menu" href="forum.html" title ="Chat forum";>Online forum and idea sharing</a></li>
+            <li class="no_bullet"><a class= "menu" href="discussion.html" title ="Discussion groups";>Topical round table discussion groups</li></a>
+            <li class="no_bullet"><a class= "menu" href="code_club.html" title ="Kids coding";>Kids coding club</a></li>
+            </div>
+        </ul>
 
-    <p>We're busy adding and refreshing content regularly to make this site as useful as possible, <br>
-    including establishing links with a range of local service providers:
-            <ul>
-                <li><a href="https://www.yeovilinnovationcentre.co.uk/"title ="yic"; target="_blank">Yeovil Innovation Centre</a></li>
-            </ul>
-    </body>
-
-    <p>However in the mean time if you've got some ideas or would like to discuss any of the content further please <a href="contact.html" title ="Contact";>get in touch here</a> 
-    </p>
+        <p>We're busy adding and refreshing content regularly to make this site as useful as possible, <br>
+        including establishing links with a range of local service providers:
+            
+        <ul>
+            <li><a href="https://www.yeovilinnovationcentre.co.uk/"title ="yic"; target="_blank">Yeovil Innovation Centre</a></li>
+        </ul>
     
- 
+</div>
 
 
-
-<footer>
-    <hr/>
-        <p>Somerset, UK</p>
-    <hr/>
+<footer >
+    <div id="email2" class="container">
+        <a href="mailto:david@wheatley.digital">
+          <span font-size=100px>david@wheatley.digital</span></a>
+          <div>*To register your interest or contribute ideas </br>please get in touch</div>
+    </div>
 </footer>
     
-
+</body>
 </html>
