@@ -64,7 +64,7 @@ body {
   }
   #email a { /* email */
     text-align: right;
-    padding-bottom: 0;
+    padding-bottom: 10;
   }
   #email div { /* Get in touch */
     color:lightblue;
