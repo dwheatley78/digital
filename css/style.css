@@ -4,6 +4,15 @@ body {
     background-color: lightblue;
     font-family: 'Oxygen', sans-serif;
   }
+
+
+ h1{
+    font-size: 2em;
+    font-size: 5vm;
+    margin-bottom: 20;
+    text-align: center;
+    padding:20px;
+  }
   
   /** HEADER **/
   #header-nav {
@@ -23,7 +32,7 @@ body {
     padding-top: 25px;
   }
   
-  .navbar-brand h1 { /* WHEATLEY */
+  .navbar-brand .brand { /* WHEATLEY */
     font-family: 'Oxygen', sans-serif;
     color: black;
     font-size: 2em;
@@ -64,7 +73,7 @@ body {
   }
   #email a { /* email */
     text-align: right;
-    padding-bottom: 10;
+    padding-bottom: 2px;
   }
   #email div { /* Get in touch */
     color:lightblue;
@@ -73,16 +82,18 @@ body {
     padding-right: 15px;
   }
 
-  .mission{
-    background: white;
+  .block{
     font-size: 2em;
     font-size: 5vm;
     margin-bottom: 20;
     text-align: center;
     border: 2px solid black;
     padding:20px;
+    background-color: white;
 
   }
+
+
   
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid lightblue;;
