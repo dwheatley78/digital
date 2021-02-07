@@ -1,12 +1,12 @@
 body {
     font-size: 16px;
     color: black;
-    background-color: lightblue;
+    background-color: whitesmoke;
     font-family: 'Oxygen', sans-serif;
   }
 
 
- h1{
+ h2{
     font-size: 2em;
     font-size: 5vm;
     margin-bottom: 20;
@@ -134,14 +134,14 @@ body {
     margin: 2px 2px 2px 5px;
   }
 
-  .navbar-brand h1{
-      font-size: 1.2em;
-   
+  .navbar-brand .brand{
+    font-size: 1em; 
+      padding-top: 5px;
   }
   
   .navbar-brand p{
-  font-size: 1em;
-  padding-top: 5px;
+  font-size: 0.8em;
+  padding-top: 2px;
   }
 
   .navbar-brand{
@@ -220,3 +220,5 @@ body {
   color: #fff;
   opacity: .8;
 }
+
+
