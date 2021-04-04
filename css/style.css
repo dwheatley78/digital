@@ -6,7 +6,7 @@ body {
   }
 
 
- h2{
+ h1{
     font-size: 2em;
     font-size: 5vm;
     margin-bottom: 20;
@@ -187,7 +187,7 @@ body {
 
 
 
-#kids-tile, #forum-tile, #events-tile, #map-tile {
+#skills-tile, #forum-tile, #events-tile, #map-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -195,11 +195,11 @@ body {
   border: 2px solid black;
   overflow: hidden;
 }
-#kids-tile:hover, #forum-tile:hover, #events-tile:hover, #map-tile:hover {
+#skills-tile:hover, #forum-tile:hover, #events-tile:hover, #map-tile:hover {
   box-shadow: 0 5px 10px 5px steelblue;
 }
-#kids-tile {
-  background: url('../images/kids_img.png') no-repeat;
+#skills-tile {
+  background: url('../images/skills.png') no-repeat;
   background-position: center;
 }
 #events-tile {
@@ -211,7 +211,7 @@ body {
   background-position: center;
 }
 
-#kids-tile span, #forum-tile span,#events-tile span, #map-tile span {
+#skills-tile span, #forum-tile span,#events-tile span, #map-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
