@@ -4,3 +4,4 @@ Disallow: /case_study/
 Disallow: /documents/
 Disallow: /henry/
 Disallow: /images/
+Disallow: /404.html
