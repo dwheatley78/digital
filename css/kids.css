@@ -10,7 +10,7 @@ body {
     font-size: 4em;
     font-size: 10vm;
     padding-bottom: 50px;
-    
+   
   }
   
   /** HEADER **/
@@ -19,6 +19,7 @@ body {
     color: white;
     border-radius: 0;
     border: 0;
+    margin-bottom: 0;
   }
   
   #logo-img {
@@ -59,10 +60,8 @@ body {
   .block{
     font-size: 2em;
     font-size: 5vm;
-    margin-bottom: 20;
     text-align: center;
     border: 2px solid black;
-    padding:20px;
     background-color: white;
 
   }
@@ -108,6 +107,43 @@ body {
   box-shadow: 0 5px 10px 5px red;
 }
 
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:rgb(196, 4, 4);
+}
+
+#game-tile:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-10%, -10%);
+  text-align: left;
+}
+
+
+
+
+
+
+
+
 .animate span{
 	display: block;
 	position: relative;
@@ -134,24 +170,20 @@ forwards;
 color:red;
 }
 .animate.mixed > span:nth-child(3){
-	animation: animatemiddle 1s ease-in-out 
+	animation: animateBackwards 1s ease-in-out 
 forwards;
 color:green;
 }
 
 @keyframes animateForwards {
 	from { top: 0; transform: rotate(0deg); }
-	to { top: .9em; transform: rotate(-340deg); }
+	to { top: .9em; transform: rotate(-345deg); }
 }
 @keyframes animateBackwards {
-	from { top: 0; transform: rotate(320deg); }
+	from { top: 0; transform: rotate(350deg); }
 	to { top: 1em; transform: rotate(deg); }
 }
 
-@keyframes animatemiddle {
-	from { top: 0; transform: rotate(0deg); }
-	to { top: 1em; transform: rotate(-20deg); }
-}
 
 
 
