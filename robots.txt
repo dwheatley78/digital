@@ -1,6 +1,5 @@
 User-agent: *
-Disallow: /coursera/
-Disallow: /case_study/
+
 Disallow: /documents/
 Disallow: /henry/
 Disallow: /images/
