@@ -9,7 +9,7 @@ body {
  h1{
     font-size: 4em;
     font-size: 10vm;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
    
   }
   
@@ -187,23 +187,33 @@ color:green;
 
 #panda
 	{
-		background: url("Panda.png"); 
+    position: absolute;
+		background: url("../images/Panda.png"); 
 		width :250px;
 		height: 330px;		
 		animation: walking_animation 1s steps(12) infinite,move_forward 8s linear infinite;	
 	}
 
-@keyframes walking_animation
+
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+  @keyframes walking_animation
 	{
 		0%{background-position: 0px;}
 		100%{background-position: 3000px;}
 	}
+  
+  @keyframes move_forward{
+  0%{transform:translateX(-100px);}
+  100%{transform:translateX(940px);}
+  }
 
-@keyframes move_forward
-	{
-		0%{transform:translateX(-100px);}
-		100%{transform:translateX(1366px);}
-	}
+}
 
 
 
